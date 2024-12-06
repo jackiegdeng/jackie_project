@@ -35,7 +35,7 @@ header{
     background-color: aliceblue;
     padding: 15px 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
     box-sizing: 0 4px 8px rgba(0, 0, 0, 0, 1);
@@ -49,8 +49,27 @@ nav{
 /*nav link*/
 .nav{
     text-decoration: none;
+    color: rgb(198, 243, 120);
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+}
+.logo{
+    float: left;
+    margin-top: 2px;
+    padding: 2px;
+    padding-left: 0%;
+    padding-top: 0%;
+
+
+}
+
+nav ul li{
+    text-decoration: none;
     color: darkolivegreen;
     font-weight: bold;
     padding: 8px 16px;
     transition: cubic-bezier(0.23, 1, 0.320, 1);
+
+
 }
